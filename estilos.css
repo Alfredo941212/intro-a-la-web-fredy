@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logos{
+    text-align:right;
+    margin-right: 20px;
+}
+.logo{
+    display: inline-block;
+    margin: 10px;
+}
+.logo2{
+    width: 1%;
+    margin-inline-end: 5px;
+    cursor: pointer;
+}
+.G{
+    color: rgb(49, 62, 238);
+    font-weight: 600;
+    
+}
+.o{
+    color: red;
+    font-weight: 600;
+}
+.ol{
+    color: rgb(238, 238, 12);
+    font-weight: 600;
+}
+.l{
+    color: rgb(41, 206, 41);
+    font-weight: 600;
+}
+#google{
+    font-size: 90px;
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+}
+
+.texto1{
+    margin: 0 auto;
+    /*width: fit-content;*/
+    padding: 1rem;
+    text-align: center;
+}
+.texto2{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: -1px 0px 5px -1px rgba(14, 13, 13, 0.452);
+    border: 0px
+}
+/*Boton*/
+.boton{
+    text-align: center;
+}
+.mg{
+    width: 8%;
+    height: 50px;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+/*Texto*/
+#enlaces{
+    margin: 2rem;
+    text-align: center;
+}
+/*Footer*/
+footer{
+   margin-top: 17rem;
+}
+.navega{
+    text-align: left;
+}
+.naveg{
+    padding: 1rem;
+}
+.bgt{
+    text-align: right;
+}
+.bgt2{
+    display: inline-block;
+    padding-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
