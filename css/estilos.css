@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+body{
+    padding: 0;
+    margin-top: auto
+}
+/*Header**/
+header{
+    background-color: rgb(80, 109, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 15%;
+}
+
+header .titulo{
+    cursor: pointer;
+    color: rgb(201, 139, 59);
+    font-weight: 900;
+    font-style:italic
+}
+
+header .titulo:hover{
+    transform: scale(1.2);
+}
+
+header .nav-lista{
+    list-style: none;
+}
+header .nav-lista li{
+    display: inline-block;
+    padding: 0 20px;
+}
+header .nav-lista a{
+    font-size: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+header .fin .btn{
+    list-style: none;
+    cursor: pointer;
+    width: 94%;
+}
+#search{
+    background-color: firebrick;
+    color: aliceblue;
+}
+header .fin{
+    background-color: rgb(55, 150, 212);
+    width: 4%;
+    height: 50px;
+    border-radius: 2rem;
+}
+/*Principal**/
+
+.principal{
+    margin: 10px;
+    background-image:url(../img/rui-alves-HH9fEtrN4po-unsplash.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+#buscar{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.buscador{
+  width: 30%;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 1rem;
+  border: none;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 109, 172);
+}
+.acomodar{
+    margin: 2rem;
+}
+
+#TituloH{
+    text-align: center;
+    font-size: 3rem;
+}
+/**/
+
+main{
+    padding: 5rem;
+    margin: 3rem;
+}
+.productos{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.dibujo{
+    width: 60%;
+    box-sizing: border-box;
+}
+h2{
+    text-align:left;
+    font-weight: 400;
+    font-style: italic;
+}
+.informacion{
+    padding: 10px 20px;
+
+}
+.dato{
+    margin: 2rem;
+}
+.boton{
+    background-color: rgb(199, 25, 25);
+    text-decoration: none;
+    padding: 2.5%;
+    margin-block-start: 5rem;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.boton:hover{
+    background-color: rgb(204, 106, 106);
+}
+
+/*Galeria*/
+
+.mt-5{
+    padding: 10%;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.imagen2{
+    object-fit: cover;
+    height: 100%;
+}
+.galeria .imagen2:nth-child(9){
+    grid-column: 1/3;
+    grid-row: 2 / 4;
+}
